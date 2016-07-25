@@ -1,0 +1,53 @@
+{
+    "name": "gc-virtualdocumentspy",
+    "displayName": "Virtual Document Spy",
+    "description": "Open Developer Tools on the internal HTML page used to host virtual documents.",
+    "version": "1.0.0",
+    "icon": "img/gc-virtualdocumentspy",
+    "publisher": "GrapeCity",
+    "license": "SEE LICENSE IN LICENSE.txt",
+    "galleryBanner": {
+        "color": "#666666",
+        "theme": "dark"
+    },
+    "bugs": {
+        "url": "https://github.com/jjuback/gc-virtualdocumentspy/issues"
+    },
+    "homepage": "https://github.com/jjuback/gc-virtualdocumentspy/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jjuback/gc-virtualdocumentspy.git"
+    },
+	"engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Debuggers",
+        "Other"
+    ],
+    "keywords": [
+        "debug",
+        "virtual document",
+        "vscode"
+    ],
+    "activationEvents": [
+        "onCommand:developer.debugVirtualDocument"
+    ],
+    "main": "./out/src/extension",
+    "contributes": {
+        "commands": [{
+            "command": "developer.debugVirtualDocument",
+            "category": "Developer",
+            "title": "Debug Virtual Document"
+        }]
+    },
+    "scripts": {
+        "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+        "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "devDependencies": {
+        "typescript": "^1.8.5",
+        "vscode": "^0.11.0"
+    }
+}
