@@ -3,7 +3,7 @@
     "displayName": "Virtual Document Spy",
     "description": "Open Developer Tools on the internal HTML page used to host virtual documents.",
     "version": "1.0.0",
-    "icon": "img/gc-virtualdocumentspy",
+    "icon": "img/gc-virtualdocumentspy.png",
     "publisher": "GrapeCity",
     "license": "SEE LICENSE IN LICENSE.txt",
     "galleryBanner": {
