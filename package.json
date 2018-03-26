@@ -2,7 +2,7 @@
     "name": "gc-virtualdocumentspy",
     "displayName": "Virtual Document Spy",
     "description": "Open Developer Tools on the internal HTML page used to host virtual documents.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "icon": "img/gc-virtualdocumentspy.png",
     "publisher": "GrapeCity",
     "license": "SEE LICENSE IN LICENSE.txt",
@@ -19,7 +19,7 @@
         "url": "https://github.com/jjuback/gc-virtualdocumentspy.git"
     },
 	"engines": {
-        "vscode": "^1.0.0"
+        "vscode": "^1.21.0"
     },
     "categories": [
         "Debuggers",
